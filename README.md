@@ -1,32 +1,59 @@
 # Bus-Reservation-System
+-------------------------------------------------------------------------------------------------------------------
 A complete Console-Based Bus Reservation System developed in C Programming with features like seat booking, passenger management, file handling, and automated email ticket confirmation using libcurl SMTP integration.
+
 This project simulates a real-world bus ticket booking platform where users can:
 
 View available buses
+
 Reserve seats
+
 Manage passenger details
+
 Visualize seat availability
+
 Prevent invalid adjacent seat bookings
+
 Receive booking confirmation emails automatically
+
 ✨ Key Features
+-------------------------------------------------------------------------------------------------------------------
 🎟️ Smart Ticket Booking
+
 Reserve seats with real-time availability checking
+
 Prevents double booking
+
 Gender-based adjacent seat restriction system
+
 🪑 Interactive Seat Layout
+
 Visual seat mapping in terminal
+
 Color-coded seats:
+
 🟢 Male
+
 🟣 Female
+
 ⚪ Available
+
 📧 Automated Email Notifications
+
 Sends professional booking confirmation emails
+
 Uses Gmail SMTP + libcurl
+
 Includes:
+
 Journey details
+
 Passenger information
+
 Seat number
+
 Fare
+
 Booking timestamp
 💾 File Handling
 Persistent data storage using text files
