@@ -197,6 +197,10 @@ Linux / macOS
 
 gcc main.c -o bus_reservation -lcurl
 
+Windows (MinGW)
+
+gcc bus_reservation.c -o bus_reservation.exe -lcurl
+
 
 gcc main.c -o bus_reservation.exe -lcurl
 ▶️ Run the Application
