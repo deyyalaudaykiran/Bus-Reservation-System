@@ -83,11 +83,11 @@ View Passenger Records
 📥 Clone the Repository
 
 git clone https://github.com/deyyalaudaykiran/bus-reservation-system.git
+
 cd bus-reservation-system
+
 🛠️ Required Libraries
-
 This project uses:
-
 libcurl → for sending email notifications using SMTP
 Standard C libraries:
 stdio.h
