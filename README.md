@@ -79,6 +79,78 @@ Send Email Confirmation
 View Passenger Records
 👨‍💻 Author
 
+⚙️ Setup & Installation Guide
+📥 Clone the Repository
+
+git clone https://github.com/deyyalaudaykiran/bus-reservation-system.git
+cd bus-reservation-system
+🛠️ Required Libraries
+
+This project uses:
+
+libcurl → for sending email notifications using SMTP
+Standard C libraries:
+stdio.h
+stdlib.h
+string.h
+time.h
+📦 Install libcurl
+🔹 Ubuntu / Debian
+sudo apt update
+sudo apt install libcurl4-openssl-dev
+🔹 Fedora
+sudo dnf install libcurl-devel
+🔹 Arch Linux
+sudo pacman -S curl
+
+
+▶️ Compile the Project
+Linux / macOS
+gcc bus_reservation.c -o bus_reservation -lcurl
+Windows (MinGW)
+gcc bus_reservation.c -o bus_reservation.exe -lcurl
+▶️ Run the Application
+Linux / macOS
+./bus_reservation
+Windows
+bus_reservation.exe
+📁 Generated Files
+
+The system automatically creates:
+
+File Name	Purpose
+buses.txt	Stores bus details
+bookings.txt	Stores booking records
+📧 Gmail SMTP Setup
+
+To enable email notifications:
+
+Enable 2-Step Verification in your Gmail account
+Generate an App Password
+Replace these values in the code:
+#define FROM_EMAIL "your-email@gmail.com"
+#define APP_PASSWORD "your-app-password"
+✅ Features Available
+View Bus Services
+Add New Buses
+Book Tickets
+Seat Visualization
+Email Confirmation
+View Bookings
+🚨 Important Notes
+Internet connection is required for email notifications
+Keep your App Password secure
+Do NOT upload real credentials to GitHub
+
+Recommended:
+
+Use environment variables or config files for credentials
+🧹 Clean Build
+
+To remove compiled files:
+
+rm bus_reservation
+
 Developed as a mini-project to demonstrate:
 
 Real-world problem solving
